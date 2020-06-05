@@ -8,7 +8,7 @@ This repository is used to create a local docker registry. It's secure with the 
 To add a username and password, using command
 
 ```
-htpasswd registry.password username
+htpasswd -B registry.password username
 ```
 
 password will be asked after the command is executed.
